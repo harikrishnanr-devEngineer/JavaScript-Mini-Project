@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Details Generator</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
+
+    <!-- CSS File -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+    <div class="container">
+
+        <div class="form-area">
+
+            <h1>Personal Details</h1>
+
+            <!-- Name -->
+            <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+            >
+
+            <!-- Age -->
+            <input
+                type="number"
+                id="age"
+                placeholder="Enter your age"
+            >
+
+            <!-- Profession -->
+            <input
+                type="text"
+                id="profession"
+                placeholder="Enter your profession"
+            >
+
+            <!-- Generate Button -->
+            <button onclick="showDetails()">
+                Generate Details
+            </button>
+
+            <!-- Result -->
+            <div id="result"></div>
+
+        </div>
+
+    </div>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
